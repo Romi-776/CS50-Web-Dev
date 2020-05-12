@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
-    <title>My Webpage!</title>
+    <title>My Webpage showing a Form!</title>
+    <style>
+        h1
+        {
+          font-family: Arial, sans-serif;
+          font-weight: bold;
+          color: red;
+          margin: 50px;
+          text-align: center;
+        }
+    </style>
   </head>
   <body>
-      Hello, Web Developers! I am Romi!
+    <h1>
+      College Form
+    </h1>
+    <form>
+        <input type="text" placeholder="Name" name="name">
+        <input type="text" placeholder="Class" name="class">
+        <input type="text" placeholder="UID" name="uid">
+        <input type="number" placeholder="Marks" name="marks">
+        <button onclick="alert('form Submitted!');"> Submit </button>
+
+    </form>
   </body>
 </html>
