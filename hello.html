@@ -9,7 +9,18 @@
           font-weight: bold;
           color: red;
           margin: 50px;
+          font-size: 50px;
           text-align: center;
+        }
+        a{
+          font-size: 20px;
+          font-family: Arial;
+          font-weight: bold;
+          color: blue;
+          margin: 10px;
+        }
+        input{
+          margin: 10px;
         }
     </style>
   </head>
@@ -17,13 +28,45 @@
     <h1>
       College Form
     </h1>
-    <form>
-        <input type="text" placeholder="Name" name="name">
-        <input type="text" placeholder="Class" name="class">
-        <input type="text" placeholder="UID" name="uid">
-        <input type="number" placeholder="Marks" name="marks">
-        <button onclick="alert('form Submitted!');"> Submit </button>
+    <div>
+      <form style="margin:10px;">
+          Name: <input type="text" placeholder="Name" name="name">
+      </form>
+    </div>
 
-    </form>
+    <div>
+      <form style="margin:10px;">
+          Class: <input type="text" placeholder="Class" name="class">
+      </form>
+    </div>
+
+    <div>
+      <form style="margin:10px;">
+          UID: <input type="text" placeholder="UID" name="uid">
+      </form>
+    </div>
+
+    <div>
+      <form style="margin:10px;">
+          Marks: <input type="number" placeholder="Marks" name="marks">
+      </form>
+    </div>
+
+    <div style="margin:10px;">
+        Favourite programming Language:
+        <input type="radio" name="lang" value="C"> C
+        <input type="radio" name="lang" value="C"> C++
+        <input type="radio" name="lang" value="C"> Java
+        <input type="radio" name="lang" value="C"> Python
+        <input type="radio" name="lang" value="C"> C#
+        <input type="radio" name="lang" value="C"> Other
+    </div>
+
+    <div style="margin:10px;">
+      Cuims Password: <input type="password" placeholder="Password">
+    </div>
+
+      <a href="index.html">Submit</a>
+
   </body>
 </html>
